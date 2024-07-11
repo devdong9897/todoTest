@@ -12,12 +12,13 @@
       <h1>To Do List</h1>
       <div class="add_text">
         <input type="text" id="input-text" onkeydown="addTodo()" />
-        <button id="add-btn">+</button>
+        <button id="add-btn" onclick="addTodo()">+</button>
       </div>
       <div class="contents">
         <div class="content">
           <ul id="todo-list"></ul>
         </div>
+        <button onclick="deleteAll()">전체삭제</button>
       </div>
     </div>
   </body>
